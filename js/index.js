@@ -40,12 +40,13 @@ function displaySection(link,section) {
                 s.style.display = "flex";
                 s.style.flexDirection = "column";
 
-            } else if (section == "links-section") {
+            } else {
                 let linkWrapper = document.querySelector(`#${section} div`);
                 linkWrapper.style.display = "flex";
                 linkWrapper.style.flexDirection = "column";
 
-            }
+            } 
+            
             sec.classList.remove("section");
             sec.style.display = "block";
             sec.style.animationName = "section-mobile";
@@ -150,3 +151,4 @@ displaySection("about-me","about-me-section");
 displaySection("skills","skills-section");
 displaySection("projects","projects-section");
 displaySection("links","links-section");
+displaySection("experience","experience-section");
