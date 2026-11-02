@@ -514,5 +514,7 @@ footer {
 
 #experience-section div p{
   z-index: -100;
-  color: black;
+  color: var(--text-color);
+
+
 }
